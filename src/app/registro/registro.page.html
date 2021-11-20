@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon name="arrow-back-outline" [routerLink]="['/']"></ion-icon>
+    </ion-buttons>
+    <ion-title>registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input placeholder="Correo">
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Contraseña">
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Contraseña">
+    </ion-input>
+  </ion-item>
+  <ion-button expand="block" (click)="onRegistrarse()">Registrarse</ion-button>
+</ion-content>
